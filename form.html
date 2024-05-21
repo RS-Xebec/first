@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> this is form example </title>
+</head>
+<body>
+<div style="width:400px;background-color: aqua;">
+ <fieldset>  
+    <legend align="center">Student information</legend> 
+<form method="post" action="xyz.php" enctype="multipart/form-data">
+<label> Student name </label>
+<input type="text" name="user" value="" placeholder="Enter Student Name" 
+/>
+<br><br>
+<label> Roll Number </label>
+<input type="text" name="num" value="" placeholder="Enter Roll Number" />
+<br><br>
+
+
+<label>Class</label>
+<select name="course">              <!-- Comment you want to write  -->
+    <option value="BCA" disabled>BCA</option>
+    <option value="BBA">CSIT</option>
+    <option value="BBS">BBA</option>
+    <option value="BE">BE</option>
+</select>
+<br><br>
+<label>English Marks</label>
+<input type="text" id ="eng" name="num" value="" placeholder="Enter English Marks" />
+<br><br>
+<label>Math Marks</label>
+<input type="text" id="mat" name="num" value="" placeholder="Enter Math Marks" />
+<br><br>
+<label>Science Marks</label>
+<input type="text" id="sci" name="num" value="" placeholder="Enter Science Marks" />
+<br><br>
+<label>Computer Marks</label>
+<input type="text" id="com" name="num" value="" placeholder="Enter Computer Marks" />
+<br><br>
+<label>Nepali Marks</label>
+<input type="text" id="nep"name="num" value="" placeholder="Enter Nepali Marks" />
+<br><br>
+
+<button onclick="calculate" >calculate</button>
+<button onclick="cancel" style="margin-left: 80px;" >calculate</button>
+<br><br>
+
+<label> Total Marks</label>
+<input type="text" id ="tm" name="tm" value="" disabled/>
+<br><br>
+<label>Percentage</label>
+<input type="text" id="per" name="num" value="" disabled />
+<br><br>
+<label>Grade</label>
+<input type="text" id="gra" name="num" value="" disabled/>
+<br><br>
+<label>Result</label>
+<input type="text" id="res" name="num" value="" disabled/>
+<br><br>
+
+
+</form>
+</fieldset>
+</div>
+</body>
+</html>
